@@ -1,0 +1,25 @@
+
+@font-face{
+    font-family:"Revalia";
+    src: url("../fonts/Revalia.woff2") format("woff2");
+}
+
+@font-face{
+    font-family:"Roboto";
+    src: url("../fonts/Roboto.woff2") format("woff2");
+}
+@font-face{
+    font-family:"Roboto";
+    src: url("../fonts/Roboto2.woff2") format("woff2");
+}
+body{
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.TEXT{
+    font-family: "Roboto";
+}
+.icons{
+    font-family: "Roboto"
+}
