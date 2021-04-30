@@ -12,15 +12,53 @@
     font-family:"Roboto";
     src: url("../fonts/Roboto2.woff2") format("woff2");
 }
+@font-face {
+    font-family: "PaytoneOne";
+    src: url("../fonts/PaytoneOne.woff2") format("woff2");
+}
 body{
     font-family: "Roboto";
-    font-size: 16px;
-    background-image: url("img/1.jpg");
+    background: url("../img/1.jpg"), rgba(255, 0, 0, 0.6);
+    background-blend-mode: color-burn;
+    background-size: cover;
 }
 
-.TEXT{
-    font-family: "Roboto";
+
+.phon{
+    z-index: -1;
 }
-.icons{
-    font-family: "Roboto"
+/* .logo{
+    position: relative;
+    left: 90px;
+    top: 25px;
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    
 }
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 44vw;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 47vw;
+    font-size: 18px;
+    font-family: "PaytoneOne";
+    font-weight: 900;
+}
+header{
+    padding: 0 calc(30% - 490px);
+}
+.trash{
+    
+}
+
+
