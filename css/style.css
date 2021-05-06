@@ -18,7 +18,7 @@
 }
 body{
     font-family: "Roboto";
-    background: url("../img/1.jpg"), rgba(255, 0, 0, 0.6);
+    /* background: url("../img/1.jpg"), rgba(255, 0, 0, 0.6); */
     background-blend-mode: color-burn;
     background-size: cover;
 }
@@ -26,6 +26,8 @@ body{
 
 .phon{
     z-index: -1;
+    position: relative;
+    right: 86px;
 }
 /* .logo{
     position: relative;
@@ -51,7 +53,7 @@ nav{
     align-items: center;
     width: 47vw;
     font-size: 18px;
-    font-family: "PaytoneOne";
+    font-family: "Roboto";
     font-weight: 900;
 }
 header{
@@ -60,5 +62,132 @@ header{
 .trash{
     
 }
+.down-text{
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    
+}
 
+.left-1{
+	position: relative;
+    width: 700px;
+    height: 500px;
+    left: 1007px;
+    z-index: -1;
+}
+.coust{
+    position: relative;
+    width: 163px;
+    height: 87px;
+    left: 831px;
+    top: 450px;
 
+}
+.TEXT45{
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    width: 507px;
+    height: 55px;
+    left: 405px;
+    top: 335px;
+}
+.TEXT44{
+    position: relative;
+    width: 570px;
+    height: 44.62px;
+    left: 405px;
+    top: 333.12px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 67px;
+        letter-spacing: 0.04em;
+}
+.look{
+    position: absolute;
+    width: 240px;
+    height: 48.12px;
+    left: 405px;
+    top: 1430px;
+    background:greenyellow;
+    font-size: 2-0px;
+    font-weight: bold;
+
+}
+.dostavka{
+    width: 1920px;
+    height: 235px;
+    background:black;
+}
+.TEXT46{
+    position: relative;
+    width: 588px;
+    height: 37px;
+    left: 665px;
+    top: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    
+}
+.TEXT47{
+position: relative;
+width: 394px;
+height: 26px;
+left: 762px;
+top: 70px;
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+}
+.skidka{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 1920px;
+    height: 700px;
+}
+.homes1{
+    width: 300px;
+    height: 300px;
+}
+.TEXT-HOMES{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+}
+.COUNT-1{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+}
+.podar{
+    width: 1920px;
+    height: 180px;
+    background: black;
+}
+
+.foot{
+    width: 1920px;
+    height: 567px;
+    background: black;
+}
+.svg1{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.right-foot{
+    position: relative;
+    color: white;
+    left: 1500px;
+    top: 400px;
+}
