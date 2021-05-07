@@ -18,34 +18,34 @@
 }
 body{
     font-family: "Roboto";
-    /* background: url("../img/1.jpg"), rgba(255, 0, 0, 0.6); */
+    background: url("../img/1.jpg"), rgba(255, 0, 0, 0.6);
+    background-repeat: no-repeat;
     background-blend-mode: color-burn;
     background-size: cover;
 }
 
 
 .phon{
-    z-index: -1;
-    position: relative;
-    right: 86px;
+    width: 100%;
 }
-/* .logo{
-    position: relative;
-    left: 90px;
-    top: 25px;
-} */
+.logo>img{
+    width: 11vw;
+    height: 4vw;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 25px;
-    
+    width: 90vw;
 }
 .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 44vw;
+    padding: 0 calc(30% - 490px);
+    margin-left: 3vw;
 }
 .buttons{
     display: flex;
@@ -56,49 +56,41 @@ nav{
     font-family: "Roboto";
     font-weight: 900;
 }
-header{
-    padding: 0 calc(30% - 490px);
-}
-.trash{
-    
-}
 .down-text{
+    margin-left: 4.7vw;
     font-family: "Roboto";
-    font-size: 40px;
+    font-size: 1.8vw;
     font-weight: bold;
-    
+    line-height: 45px;
+    margin-top: 3vw;
 }
 
-.left-1{
-	position: relative;
-    width: 700px;
-    height: 500px;
-    left: 1007px;
-    z-index: -1;
+/* -----------------------------------SECTION Весенняя распродажа------------------------------------------------------ */
+section.summer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vw;
+    margin-bottom: 6vw;
 }
-.coust{
-    position: relative;
-    width: 163px;
-    height: 87px;
-    left: 831px;
-    top: 450px;
+
+img.home{
+    width: 40vw;
 
 }
+.homes1{
+    width: 10vw;
+    height: 10vw;
+    /* width: 300px;
+    height: 300px; */
+}
+
 .TEXT45{
-    position: relative;
     font-size: 30px;
     font-weight: bold;
-    width: 507px;
-    height: 55px;
-    left: 405px;
-    top: 335px;
+
 }
 .TEXT44{
-    position: relative;
-    width: 570px;
-    height: 44.62px;
-    left: 405px;
-    top: 333.12px;
         font-style: normal;
         font-weight: bold;
         font-size: 55px;
@@ -106,27 +98,19 @@ header{
         letter-spacing: 0.04em;
 }
 .look{
-    position: absolute;
-    width: 240px;
-    height: 48.12px;
-    left: 405px;
-    top: 1430px;
+
     background:greenyellow;
-    font-size: 2-0px;
+    /* font-size: 2-0px; */
     font-weight: bold;
 
 }
 .dostavka{
-    width: 1920px;
-    height: 235px;
+
     background:black;
 }
 .TEXT46{
-    position: relative;
-    width: 588px;
-    height: 37px;
-    left: 665px;
-    top: 50px;
+
+
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -137,11 +121,7 @@ header{
     
 }
 .TEXT47{
-position: relative;
-width: 394px;
-height: 26px;
-left: 762px;
-top: 70px;
+
 font-style: normal;
 font-weight: 300;
 font-size: 21px;
@@ -152,13 +132,8 @@ color: #FFFFFF;
 .skidka{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    width: 1920px;
-    height: 700px;
 }
-.homes1{
-    width: 300px;
-    height: 300px;
-}
+
 .TEXT-HOMES{
     font-family: "Roboto";
     font-size: 25px;
@@ -170,24 +145,20 @@ color: #FFFFFF;
     font-weight: bold;
 }
 .podar{
-    width: 1920px;
-    height: 180px;
+
     background: black;
 }
 
 .foot{
-    width: 1920px;
-    height: 567px;
+
     background: black;
 }
 .svg1{
-    position: relative;
-    top: 50px;
-    left: 50px;
+   
+  
 }
 .right-foot{
-    position: relative;
+   
     color: white;
-    left: 1500px;
-    top: 400px;
+  
 }
