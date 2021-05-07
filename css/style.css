@@ -18,7 +18,7 @@
 }
 body{
     font-family: "Roboto";
-    background: url("../img/1.jpg"), rgba(255, 0, 0, 0.6);
+    /* background: url("../img/1.jpg"), rgba(255, 0, 0, 0.6); */
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
     background-size: cover;
@@ -85,51 +85,60 @@ img.home{
     height: 300px; */
 }
 
-.TEXT45{
-    font-size: 30px;
+.summer-skidka{
+    /* padding-left: 5vw;
+    padding-bottom: 4vw; */
+    font-size: 4vw;
     font-weight: bold;
 
 }
-.TEXT44{
+.NINEskidka{
+        /* padding-left: 5vw; */
         font-style: normal;
         font-weight: bold;
-        font-size: 55px;
+        font-size: 6vw;
         line-height: 67px;
         letter-spacing: 0.04em;
 }
 .look{
-
+    width: 10vw;
+    height: 2vw;
     background:greenyellow;
     /* font-size: 2-0px; */
     font-weight: bold;
+    border: 0;
+    
 
 }
 .dostavka{
 
     background:black;
+    width: 99vw;
+    height: 10vw;
 }
 .TEXT46{
 
 
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 3vw;
     line-height: 37px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding-top: 3vw;
     
 }
 .TEXT47{
 
 font-style: normal;
 font-weight: 300;
-font-size: 21px;
-line-height: 26px;
+font-size: 2vw;
 text-align: center;
 color: #FFFFFF;
 }
 .skidka{
+    padding-left: 4vw;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
@@ -152,13 +161,41 @@ color: #FFFFFF;
 .foot{
 
     background: black;
+    width: 99vw;
+    height: 5vw;
 }
 .svg1{
    
   
 }
 .right-foot{
-   
+    padding-top: 3vw;
+    font-family: "Roboto";
+    font-size: 20px;
     color: white;
   
+}
+.amount1{
+    width: 20vw;
+    height: 5vw;
+}
+.shie{
+    width: 60vw;
+    height: 6vw;
+}
+.shie2{
+    width: 20vw;
+    height: 6vw;
+    padding-left: 20vw;
+}
+.skidkaTEXT{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10vw;
+    padding-left: 3vw;
+}
+.coust{
+    display: flex;
+    flex-direction: column;
 }
